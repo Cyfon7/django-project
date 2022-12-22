@@ -1,0 +1,36 @@
+<hr class="hr-division">
+
+<section id="infoPage">
+  <div class="row">
+    <!-- Info Page & Tags -->
+    <div class="info-page col">
+      <div>
+        <h3>Foodtopia</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet nisl quis aliquet euismod. Duis auctor nisi et est commodo, a finibus sem aliquam. Curabitur pretium, sem ut fringilla consequat, augue purus tincidunt dolor, ac faucibus ante sapien a felis. Suspendisse a lacus et turpis vehicula egestas. Nam porta aliquam massa. Integer pharetra quam lorem, sit amet convallis sapien lacinia vitae. Fusce nec orci velit.</p>
+        <p>In dignissim, lacus venenatis ultrices rutrum, lorem nisi lacinia nulla, in porttitor dolor arcu id purus. Suspendisse nibh risus, interdum ac risus in, molestie ullamcorper est. Nulla maximus nibh egestas urna aliquam, ut rutrum quam.  </p>
+      </div>
+      <div>
+        <h4><i class="fas fa-tags"></i> Tags</h4>
+        <div class="tag-badge-group row">
+          {% for tag in tags %} 
+            <a class="tag-badge" href="#">{{ tag.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <!-- Popular Recipes -->
+    <div class="info-popular col">
+      <div class="row"> 
+        <h4><i class="fab fa-gripfire"></i> Popular Recipes</h4>
+      </div>
+      <div class="row">
+        <ul class="list-unstyled">
+          {% for recipe in recipes %}
+            {% include "./_popular_card.html" with recipe=recipe only%}
+            <hr class="hr-list">
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

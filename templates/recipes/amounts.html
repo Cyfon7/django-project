@@ -1,0 +1,9 @@
+{% if amount_list %}
+    <ul>
+        {% for amount amountmount_list %}
+            <li>{{ amount.amount }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No amounts are available</p>
+{% endif %}

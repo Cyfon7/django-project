@@ -1,0 +1,468 @@
+html {
+  scroll-behavior: smooth;
+}
+  
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #444444;
+}
+
+/* Home Nav Bar */
+#homeNavbar {
+  background-color: #2f2f2f;
+  height: 60px;
+  z-index: 20;
+  position: fixed;
+  width: 100%;
+  margin: 0 !important;
+}
+
+#homeNavbar a {
+  color: #fff;
+}
+
+#homeNavbar .dropdown-menu {
+  background-color: #2f2f2f;  
+  padding-bottom: 0;
+  min-width: fit-content;
+  
+  right: 0 !important;
+  left: auto !important;
+}
+
+#homeNavbar .dropdown-item-div {
+  padding: 0 1rem !important;
+  background-color: #2f2f2f; 
+  max-width: 20rem;
+  font-size: 12px;
+}
+
+#homeNavbar .dropdown-item {
+  padding: 0 12px !important;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2px;
+}
+
+#homeNavbar .dropdown-item:hover {
+  color: #fff;
+  background: #5cb85c;
+}
+
+
+#principalBody {
+  margin: 0 3rem;
+  padding: 0rem 1rem;
+  background: #fff;
+}
+
+/* Hero Section */
+header {
+  background: #7d99a4;
+  margin: 0 3rem;
+  padding: 5rem 1rem 0rem 1rem;
+}
+
+.hero-section {
+  background-color: rgb(68,68,68);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6.25rem 3.125rem 6.25rem 3.125rem;
+  text-align: center;
+}
+
+.hero-section-title{
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hero-section form div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hero-section .search-button {
+  background: #5cb85c;
+  color:#fff;
+}
+
+/* Top 5 Carousel */
+
+#topRecipeCarousel {
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  /*top: 50px; 
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+  text-align: right;
+  */
+  margin: 0;
+  padding-left: 80%;
+  bottom: 30px;
+  right: 30px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  height: 400px;
+}
+
+.icon-box, .icon-box-2 {
+  background: #7b6da0;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.carousel-item h5, #recentRecipes h5 {
+  background: #303030;
+  color: #ffffff;  
+  line-height: 50px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel-item .description {
+  color: #fff;
+  margin-top: 0;
+  background: #5cb85c;
+  display: block;
+  padding: 18px 26px;
+  text-align: justify;
+}
+
+.carousel-item .time span, .carousel-item .category span{
+  display: inline-block;
+  background: #444;
+  height: 25px;
+  width: max-content;
+  line-height: 25px;
+  font-size: 11px;
+  padding: 0 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Recent 9 Recipes */
+#recentRecipes {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#recentRecipes h2 {
+  color: #444444;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.recent-recipe-item {
+  padding:0px;
+}
+
+.recent-recipe-item .card, .recent-recipe-item .card img {
+  border: none;
+  border-radius: 0px !important;
+  color: #fff;
+  background-color: #444444;
+}
+
+.recent-recipe-item .card-img-overlay {
+  padding-top: 75%;
+}
+
+.recent-recipe-item .card-title {
+  width: max-content;
+}
+
+.recent-recipe-item .card-stars {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.fav-heart {
+  position: absolute;
+  top: 75%;
+  right: 1rem; 
+  z-index: 2;
+}
+
+.fav-heart button {
+  background: none;
+  border: none;
+}
+
+.fav-heart button:focus {
+  box-shadow:none !important;
+  outline: 0;
+}
+
+/* Info Section & Popular List */
+#infoPage {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#infoPage .info-page, #infoPage .info-popular {
+  padding: 1rem 2rem;
+}
+
+.hr-division {
+  width: 90%;
+  border: 2;
+  color: #000;
+  padding: 0;
+  margin: 2rem auto 1rem auto;
+}
+
+.tag-badge-group a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.tag-badge {
+  background-color: #5cb85c;
+  color: #fff !important;
+  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0.5rem;
+  font-size: 12px;
+  margin: 0 0.5rem;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+}
+
+.popular-item {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.popular-item h5 {
+  font-weight: bold;
+  color: #5cb85c;
+}
+
+.hr-list {
+  width: 90%;
+  border: 2;
+  color: #000;
+  padding: 0;
+}
+
+.popular-item .media-body {
+  color: #444444;
+}
+
+/* Footer Section */
+footer{
+  background: #2f2f2f;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+  color:#fff;
+  margin: 0 3rem !important;
+  text-align: center;
+}
+
+/****************** From Here Show Page CSS *******************************/
+#currentRecipe {
+  padding: 0 1rem;
+}
+
+/* Recipe Title & metrics */
+#currentRecipe .recipe-title {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#currentRecipe .recipe-header {
+  padding-bottom: 1rem;
+}
+
+.recipe-header {
+  font-size: 12px;
+}
+
+.recipe-author, .recipe-timestamp, .recipe-comments {
+  margin-right: 1rem;
+}
+
+/* Recipe Images */
+.recipe-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Recipe Rating, Buttons & Description */
+.recipe-general {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Stars */
+.recipe-rating-stars {
+  font-size: 1.5rem;
+}
+
+.recipe-button-group {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.recipe-button-group > * {
+  background: #5cb85c;
+}
+
+.recipe-button-group div.col {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.recipe-button-group div.row > *{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-box-2 {
+  background: #5cb85c;
+}
+
+.fav-heart-2 button {
+  background: none;
+  border: none;
+}
+
+.fav-heart-2 button:focus {
+  box-shadow:none !important;
+  outline: 0;
+}
+
+/* Preparation */
+.recipe-preparation {
+  margin-top: 3rem;
+}
+
+/* Recipe Ingredients */
+.recipe-ingredients h4, .recipe-steps h4 {
+  margin-bottom: 2rem;
+}
+
+.ingredients-list {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border: solid 2px #5cb85c;
+  border-radius: 10%;
+  padding-left: 0;
+}
+
+.ingredients-list li {
+  line-height: 24px;
+  border-bottom: solid 1px #5cb85c;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.ingredients-list .empty-li {
+  list-style-type: none;
+  padding-bottom: 24px;
+  border: none;
+}
+
+/* Review Section */
+.review-section h3 {
+  padding-bottom: 2rem;
+}
+
+#recipeReviewsList {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#recipeReviewsList li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.review-section .review-header {
+  text-align: center;
+  padding-right: 2rem;  
+}
+
+.review-section .review-header .review-avatar {
+  margin-bottom: 1rem;
+}
+
+.review-section .review-author {
+  color: #5cb85c;
+}
+
+.review-section .review-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.review-section .review-date {
+  text-align: right;
+  font-size: 12px;
+  color: gray;
+  margin-left: auto;
+  padding-right: 1rem;
+}
+
+#reviewForm {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+#reviewForm .review-form-rate {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#reviewForm .review-form-rate > * {
+  padding: 0;
+}
+
+#reviewForm .review-form-content {
+  margin-top: 1rem;
+}
+
+#reviewForm .review-form-buttom {
+  text-align: right;
+}
+
+#reviewForm .review-form-buttom input{
+  background: #5cb85c;
+}

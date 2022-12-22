@@ -1,0 +1,50 @@
+<nav id="homeNavbar" class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="{% url 'recipes:index' %}">Foodtopia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+  
+        <!-- Tag -->
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tag</a>
+          <ul class="dropdown-menu">
+            {% for tag in tags %}
+              <li><a class="dropdown-item" href="#">{{ tag.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+  
+        <!-- Category -->
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+          <ul class="dropdown-menu">
+            {% for category in categories %}
+              <li><a class="dropdown-item" href="#">{{ category.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+  
+        {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Cuisine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log Out</a>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log In</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+  

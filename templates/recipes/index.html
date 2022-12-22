@@ -1,0 +1,19 @@
+{% extends 'recipes/base.html' %}
+
+{% block title %}{{ site_title }}{% endblock %}
+
+{% block content %}
+  <section id="topRecipes">
+    {% include "./_carousel.html" with recipes=recipes %}
+  </section>
+  
+  <section id="recentRecipes">
+    <h2>Recent Recipes</h2>
+    <div class="row row-cols-3">
+      {% for recipe in recipes %}
+          {% include "./_recent_card.html" with recipe=recipe %}
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}
+

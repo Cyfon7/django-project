@@ -1,0 +1,23 @@
+<div id="topRecipeCarousel" class="carousel slide carousel-fade" data-bs-ride="true">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#topRecipeCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#topRecipeCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#topRecipeCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#topRecipeCarousel" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#topRecipeCarousel" data-bs-slide-to="4"></button>
+    </div>
+  
+    <div class="carousel-inner">
+      {% for recipe in recipes %}
+        {% if forloop.counter == 0 %}
+          <div class="carousel-item active">
+        {% else %}
+          <div class="carousel-item">
+        {% endif %}
+            {% include "./_carousel_item.html" with recipe=recipe %}
+          </div>
+      {% endfor %}
+    </div>
+  
+  </div>
