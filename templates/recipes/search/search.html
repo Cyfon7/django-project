@@ -1,0 +1,25 @@
+{% extends 'recipes/base.html' %}
+
+{% block content %}
+  <div class="search-navigation">
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'recipes:index' %}">Home</a></li>
+        <li class="breadcrumb-item active">{{ query }}</li>
+      </ol>
+    </nav>
+  </div>
+  
+  <h2 class="query-title">{{ query }}</h2>
+  <span>Result: {{ recipes.count }} Recipes</span>
+  
+  <section id="recentRecipes">
+    <div class="row row-cols-3">
+      {% for recipe in recipes %}
+        {% include "../home/_recent_card.html" with recipe=recipe %}
+      {% endfor %}
+    </div>
+  </section>
+  
+
+{% endblock %}

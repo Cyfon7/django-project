@@ -1,0 +1,5 @@
+<ul id="recipeReviewsList" class="list-unstyled">
+    {% for review in reviews %}
+        {% include "./_recipe_review_media.html" with review=review %}
+    {% endfor %}
+</ul>

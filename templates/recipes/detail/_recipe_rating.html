@@ -1,0 +1,31 @@
+{% load recipes_extras %}
+
+<div id="recipeReviewsStatistics" class="row">
+
+    <div class="col text-center">
+      <h1 class="m-0">{{ avg_value }}</h1>
+      {% star_rating avg_value %}
+      <h5>Average Rating</h5>
+    </div>
+  
+    <div class="col">
+      {% for value in values %}
+        <div class="progress my-2">
+          <div class="progress-bar bg-success" role="progressbar" style="width:{{ value }}%"></div>
+        </div>
+      {% endfor %}
+    </div>
+  
+    <div class="col">
+      {% for value in values %}
+        <div class="row">
+          <div class="col">
+            {% star_rating foorloop.counter0|add:"5" %}
+          </div>
+          <div class="col">
+            <span>{{ value }}%</span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>

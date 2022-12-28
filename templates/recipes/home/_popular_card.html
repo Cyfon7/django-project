@@ -1,0 +1,18 @@
+{% load static %}
+<li class="popular-item">
+  <a href="{% url 'recipes:detail' recipe.id %}">
+    <div class="card">
+      <div class="row">
+        <div class="col-2">
+          <img src="{% static 'recipes/image_default.jpg' %}" class="mr-3" alt="..." style="height:65px; width:65px;">
+        </div>
+        <div class="col-10">
+          <div class="card-body">
+              <h5 class="card-title">{{ recipe.title }}</h5>
+              <p class="card-text">{{ recipe.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</li>

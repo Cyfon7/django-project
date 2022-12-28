@@ -1,0 +1,22 @@
+{% load recipes_extras %}
+{% load static %}
+<li>
+  <div class="row">
+    <div class="col-2 review-header">
+      <img class="review-avatar" src="{% static 'recipes/avatar_default.png' %}" style="height:65px; width:65px;">
+      <div class="review-stars">
+        {% star_rating review.rate %}
+      </div>
+    </div>
+    <div class="col-10">
+      <div class="card-body">
+          <div class="row review-info">
+            <h5 class="col-10 review-author">{{ review.user.username }}</h5>
+            <p class="col-2 review-date">{{ review.created }}</p>
+          </div>
+          <p class="card-text review-content">{{ review.content }}</p>
+      </div>
+    </div>
+  </div>
+</li>
+<hr class="hr-list">

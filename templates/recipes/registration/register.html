@@ -1,0 +1,24 @@
+{% extends 'recipes/registration/base.html' %}
+
+{% block content %}
+<div class="card text-center mx-auto pt-5" style="width: 20rem;">
+    <div class="card-body">
+        <form action="{% url 'signup' %}" method="post"> {% csrf_token %}
+            {% for field in form %}
+                <div class="form-group my-5">
+                    {{ field }}
+                    {% if field.errors %}
+                        <p><strong>{{ field.errors }}</strong></p>
+                    {% endif %}
+                    {% if field.help_text %}
+                        <p>{{ field.help_text|safe }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+            <div class="actions">
+                <input type="submit" class="btn btn-primary" value="Sign Up"/>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

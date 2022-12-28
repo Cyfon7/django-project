@@ -1,0 +1,19 @@
+{% extends 'recipes/registration/base.html' %}
+
+{% block content %}
+<div class="card text-center mx-auto pt-5" style="width: 20rem;">
+  <div class="card-body">
+    <form action="{% url 'login' %}" method="post"> {% csrf_token %}
+      <div class="form-group my-5">
+        <input type="text" name="username" autofocus="true" autocomplete="username" class="form-control text-center" placeholder="Username"/>
+      </div>
+      <div class="form-group my-5">
+        <input type="password" name="password" autocomplete="current-password" class="form-control text-center" placeholder="Password"/>
+      </div>
+      <div class="actions">
+        <input type="submit" class="btn btn-primary" value="Log In"/>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

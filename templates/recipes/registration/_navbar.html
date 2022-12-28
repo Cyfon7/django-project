@@ -1,0 +1,26 @@
+<nav id="homeNavbar" class="navbar navbar-expand-lg px-5">
+    <a class="navbar-brand" href="{% url 'recipes:index' %}">Foodtopia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">  
+        {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Cuisine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'signup' %}">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'login' %}">Log In</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+  

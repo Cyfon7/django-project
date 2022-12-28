@@ -1,0 +1,133 @@
+{% extends 'recipes/base.html' %}
+{% load recipes_extras %}
+{% load static %}
+
+{% block content %}
+    <div id="currentRecipe">
+    
+        <h2 class="recipe-title">{{ recipe.title }}</h2>
+        
+        <div class="recipe-header">
+            <span class="recipe-author">
+                <span class="recipe-author-label">
+                    <i class="fas fa-user-circle"></i>
+                    Posted by
+                </span>
+                <span class="recipe-author-name">
+                    {{ recipe.author }}
+                </span>
+            </span>
+            <span class="recipe-timestamp">
+                <span class="recipe-timestamp-label">
+                    <i class="far fa-clock"></i>
+                    Posted at
+                </span>
+                <span class="recipe-timestamp-time">
+                    {{ recipe.time_dmy }}
+                </span>
+            </span>
+            <span class="recipe-comments">
+                <i class="fas fa-comments"></i>
+                {{ recipe.review_counter }}
+                Comments
+            </span>
+        </div>
+    
+        <div class="row row-cols-2">
+            <!-- Picture -->
+            <div class="col">
+                <img src="{% static 'recipes/image_default.jpg' %}" class="img-fluid">
+            </div>
+            <!-- Rating, buttons & Description -->
+            <div class="col recipe-general">
+                <div class="row recipe-rating-stars">
+                    {% star_rating recipe.avg_rate %}
+                </div>
+        
+            <!-- Button Group -->
+    
+                <div class="recipe-button-group row">
+                    <div class="col">
+                        <a href="#ratingBoard"> 
+                            <div class="row">
+                                <i class="fas fa-star icon-box-2"></i>
+                            </div>
+                            <div class="row">
+                                <span>Rate</span>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="col">
+                        <a href="#reviewSection">
+                            <div class="row">
+                                <i class="fas fa-comment-alt icon-box-2"></i>
+                            </div>
+                            <div class="row">
+                                <span>Comment</span>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="col">
+                        <div class="row">
+                            {% if user.is_authenticated %}
+                                {% favorite_mark user recipe.id "icon-box-2" %}
+                            {% else %}
+                                <i id='heart-{{ recipe.id }}' class='far fa-heart icon-box-2'></i>
+                            {% endif %}
+                        </div>
+                        <div class="row">
+                            <span>Save</span>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="row">
+                            <i class="fas fa-print icon-box-2"></i>
+                        </div>
+                        <div class="row">
+                            <span>Print</span>
+                        </div>
+                    </div>
+               </div>
+                <h4>Description</h4>
+                <p>{{ recipe.description }}</p>
+            </div>
+        </div>
+    
+    
+        <div class="row recipe-preparation">
+            <div class="col-6 recipe-ingredients">
+                <h4> <i class="fas fa-pencil-alt"></i> Ingredients</h4>
+                {% include "./detail/_ingredients_list.html" with amounts=recipe.amount_set.all %}
+            </div>
+        
+            <div class="col-6 recipe-steps">     
+                <h4> <i class="fas fa-clipboard-list"></i> Steps</h4>
+                <div>
+                {{ recipe.steps }}
+                </div>
+            </div>
+        </div>
+    
+        <hr class="hr-list">
+    
+        <section id="ratingBoard" class="rating-board">
+            {% include "./detail/_recipe_rating.html" with values=recipe.rating_table_calculation avg_value=recipe.avg_rate %}
+        </section>
+    
+        <hr class="hr-list">
+    
+        <section id="reviewSection" class="review-section">
+            <h3> Reviews </h3>
+            {% if user.is_authenticated %}
+                {% include "./detail/_recipe_form_review.html" with recipe=recipe %}
+                <hr class="hr-list">
+            {% endif %}
+            
+            {% include "./detail/_recipe_reviews.html" with reviews=reviews %}
+        </section>
+    </div>
+
+{% endblock %}

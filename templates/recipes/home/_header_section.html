@@ -1,0 +1,15 @@
+<header>
+  <div class="hero-section">
+    <h1 class="hero-section-title">Foodtopia</h1>  
+    <form action="{% url 'recipes:search' %}" method="get" class="search-form">
+      <div class="input-group">
+        <input type="search" name="q" class="form-control" placeholder="Find it here!!"/>
+        <button class="actions btn search-button" type="submit">
+          <i class="fas fa-search"></i>
+        </button>  
+      </div>
+    </form>
+  </div>
+</header>
+  
+  

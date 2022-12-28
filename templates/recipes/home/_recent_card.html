@@ -1,0 +1,26 @@
+{% load static %}
+{% load  recipes_extras %}
+<div class="recent-recipe-item col">
+    <a href="{% url 'recipes:detail' recipe.id %}">
+      <div class="card">
+        <img src="{% static 'recipes/image_default.jpg' %}" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <div class="row">
+            <i class="fas fa-utensils icon-box"></i>
+            <h5 class="card-title">{{ recipe.title }}</h5>
+          </div>  
+        </div>
+      </div>
+    </a>
+    <div class="card-stars">
+      {% star_rating recipe.avg_rate %}
+    </div>
+    <div class="fav-heart">
+      {% if user.is_authenticated %}
+        {% favorite_mark user recipe.id "icon-box" %}
+      {% else %}
+        <i id='heart-{{ recipe.id }}' class='far fa-heart icon-box'></i>
+      {% endif %}
+    </div>
+  </div>
+  

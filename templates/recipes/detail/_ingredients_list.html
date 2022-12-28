@@ -1,0 +1,9 @@
+<ul class="ingredients-list">
+    <li class="empty-li"></li>
+    <li class="empty-li"></li>
+    {% for amount in amounts %}
+      <li>{{ amount.amount }} {{ amount.unit.name }} {{ amount.ingredient.name }}</li>
+    {% endfor %}
+    <li class="empty-li"></li>
+    <li class="empty-li"></li>
+  </ul>
