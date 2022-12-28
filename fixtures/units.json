@@ -1,0 +1,56 @@
+[
+    {
+        "model": "recipes.unit",
+        "pk": 1,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121028",
+            "updated": "2022-12-23 12:52:40.121029",
+            "name": "Und"
+        }
+    },
+    {
+        "model": "recipes.unit",
+        "pk": 2,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121031",
+            "updated": "2022-12-23 12:52:40.121032",
+            "name": "Kg"
+        }
+    },
+    {
+        "model": "recipes.unit",
+        "pk": 3,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121033",
+            "updated": "2022-12-23 12:52:40.121033",
+            "name": "gr"
+        }
+    },
+    {
+        "model": "recipes.unit",
+        "pk": 4,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121034",
+            "updated": "2022-12-23 12:52:40.121035",
+            "name": "lt"
+        }
+    },
+    {
+        "model": "recipes.unit",
+        "pk": 5,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121036",
+            "updated": "2022-12-23 12:52:40.121036",
+            "name": "ml"
+        }
+    },
+    {
+        "model": "recipes.unit",
+        "pk": 6,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121037",
+            "updated": "2022-12-23 12:52:40.121038",
+            "name": "mg"
+        }
+    }
+]

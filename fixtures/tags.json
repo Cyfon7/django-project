@@ -1,0 +1,173 @@
+[
+    {
+        "model": "recipes.tag",
+        "pk": 1,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120703",
+            "updated": "2022-12-23 12:52:40.120709",
+            "name": "Easy"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 2,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120711",
+            "updated": "2022-12-23 12:52:40.120712",
+            "name": "Grill"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 3,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120713",
+            "updated": "2022-12-23 12:52:40.120714",
+            "name": "Meat"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 4,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120716",
+            "updated": "2022-12-23 12:52:40.120717",
+            "name": "Fish"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 5,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120718",
+            "updated": "2022-12-23 12:52:40.120718",
+            "name": "Chicken"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 6,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120719",
+            "updated": "2022-12-23 12:52:40.120720",
+            "name": "Pasta"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 7,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120721",
+            "updated": "2022-12-23 12:52:40.120721",
+            "name": "Bread"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 8,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120722",
+            "updated": "2022-12-23 12:52:40.120723",
+            "name": "Vegetable"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 9,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120724",
+            "updated": "2022-12-23 12:52:40.120724",
+            "name": "Hot"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 10,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120725",
+            "updated": "2022-12-23 12:52:40.120726",
+            "name": "Light"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 11,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120727",
+            "updated": "2022-12-23 12:52:40.120727",
+            "name": "Spicy"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 12,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120729",
+            "updated": "2022-12-23 12:52:40.120730",
+            "name": "Party"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 13,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120731",
+            "updated": "2022-12-23 12:52:40.120731",
+            "name": "Holiday"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 14,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120732",
+            "updated": "2022-12-23 12:52:40.120733",
+            "name": "Turkey"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 15,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120734",
+            "updated": "2022-12-23 12:52:40.120735",
+            "name": "Sauce"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 16,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120736",
+            "updated": "2022-12-23 12:52:40.120737",
+            "name": "Fruit"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 17,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120737",
+            "updated": "2022-12-23 12:52:40.120738",
+            "name": "Fresh"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 18,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120739",
+            "updated": "2022-12-23 12:52:40.120740",
+            "name": "Integral"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 19,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120740",
+            "updated": "2022-12-23 12:52:40.120741",
+            "name": "Cookie"
+        }
+    }
+]

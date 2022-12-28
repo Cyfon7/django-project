@@ -1,0 +1,92 @@
+[
+    {
+        "model": "recipes.category",
+        "pk": 1,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120937",
+            "updated": "2022-12-23 12:52:40.120939",
+            "name": "Breakfast"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 2,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120941",
+            "updated": "2022-12-23 12:52:40.120941",
+            "name": "Lunch"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 3,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120942",
+            "updated": "2022-12-23 12:52:40.120943",
+            "name": "Beverages"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 4,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120944",
+            "updated": "2022-12-23 12:52:40.120945",
+            "name": "Appetizers"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 5,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120945",
+            "updated": "2022-12-23 12:52:40.120946",
+            "name": "Soups"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 6,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120947",
+            "updated": "2022-12-23 12:52:40.120948",
+            "name": "Salads"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 7,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120948",
+            "updated": "2022-12-23 12:52:40.120949",
+            "name": "Main dishes"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 8,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120951",
+            "updated": "2022-12-23 12:52:40.120952",
+            "name": "Side dishes"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 9,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120952",
+            "updated": "2022-12-23 12:52:40.120953",
+            "name": "Desserts"
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 10,
+        "fields": {
+            "created": "2022-12-23 12:52:40.120954",
+            "updated": "2022-12-23 12:52:40.120955",
+            "name": "Breads"
+        }
+    }
+]

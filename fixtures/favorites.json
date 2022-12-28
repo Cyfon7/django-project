@@ -1,0 +1,1002 @@
+[
+    {
+        "model": "recipes.favorite",
+        "pk": 1,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121334",
+            "updated": "2022-12-23 12:52:40.121335",
+            "recipe": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 2,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121336",
+            "updated": "2022-12-23 12:52:40.121337",
+            "recipe": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 3,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121338",
+            "updated": "2022-12-23 12:52:40.121339",
+            "recipe": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 4,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121340",
+            "updated": "2022-12-23 12:52:40.121340",
+            "recipe": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 5,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121341",
+            "updated": "2022-12-23 12:52:40.121342",
+            "recipe": 1,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 6,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121629",
+            "updated": "2022-12-23 12:52:40.121630",
+            "recipe": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 7,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121631",
+            "updated": "2022-12-23 12:52:40.121631",
+            "recipe": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 8,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121632",
+            "updated": "2022-12-23 12:52:40.121633",
+            "recipe": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 9,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121634",
+            "updated": "2022-12-23 12:52:40.121635",
+            "recipe": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 10,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121636",
+            "updated": "2022-12-23 12:52:40.121637",
+            "recipe": 2,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 11,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121844",
+            "updated": "2022-12-23 12:52:40.121844",
+            "recipe": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 12,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121846",
+            "updated": "2022-12-23 12:52:40.121846",
+            "recipe": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 13,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121848",
+            "updated": "2022-12-23 12:52:40.121849",
+            "recipe": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 14,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121850",
+            "updated": "2022-12-23 12:52:40.121851",
+            "recipe": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 15,
+        "fields": {
+            "created": "2022-12-23 12:52:40.121852",
+            "updated": "2022-12-23 12:52:40.121853",
+            "recipe": 3,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 16,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122033",
+            "updated": "2022-12-23 12:52:40.122034",
+            "recipe": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 17,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122035",
+            "updated": "2022-12-23 12:52:40.122036",
+            "recipe": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 18,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122037",
+            "updated": "2022-12-23 12:52:40.122038",
+            "recipe": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 19,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122038",
+            "updated": "2022-12-23 12:52:40.122039",
+            "recipe": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 20,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122040",
+            "updated": "2022-12-23 12:52:40.122041",
+            "recipe": 4,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 21,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122227",
+            "updated": "2022-12-23 12:52:40.122228",
+            "recipe": 5,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 22,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122229",
+            "updated": "2022-12-23 12:52:40.122229",
+            "recipe": 5,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 23,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122230",
+            "updated": "2022-12-23 12:52:40.122231",
+            "recipe": 5,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 24,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122232",
+            "updated": "2022-12-23 12:52:40.122233",
+            "recipe": 5,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 25,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122234",
+            "updated": "2022-12-23 12:52:40.122234",
+            "recipe": 5,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 26,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122417",
+            "updated": "2022-12-23 12:52:40.122417",
+            "recipe": 6,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 27,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122419",
+            "updated": "2022-12-23 12:52:40.122419",
+            "recipe": 6,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 28,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122420",
+            "updated": "2022-12-23 12:52:40.122421",
+            "recipe": 6,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 29,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122422",
+            "updated": "2022-12-23 12:52:40.122422",
+            "recipe": 6,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 30,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122423",
+            "updated": "2022-12-23 12:52:40.122424",
+            "recipe": 6,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 31,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122604",
+            "updated": "2022-12-23 12:52:40.122604",
+            "recipe": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 32,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122605",
+            "updated": "2022-12-23 12:52:40.122606",
+            "recipe": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 33,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122607",
+            "updated": "2022-12-23 12:52:40.122607",
+            "recipe": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 34,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122608",
+            "updated": "2022-12-23 12:52:40.122609",
+            "recipe": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 35,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122610",
+            "updated": "2022-12-23 12:52:40.122611",
+            "recipe": 7,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 36,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122794",
+            "updated": "2022-12-23 12:52:40.122795",
+            "recipe": 8,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 37,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122796",
+            "updated": "2022-12-23 12:52:40.122796",
+            "recipe": 8,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 38,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122797",
+            "updated": "2022-12-23 12:52:40.122798",
+            "recipe": 8,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 39,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122799",
+            "updated": "2022-12-23 12:52:40.122800",
+            "recipe": 8,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 40,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122801",
+            "updated": "2022-12-23 12:52:40.122802",
+            "recipe": 8,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 41,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122985",
+            "updated": "2022-12-23 12:52:40.122985",
+            "recipe": 9,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 42,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122986",
+            "updated": "2022-12-23 12:52:40.122987",
+            "recipe": 9,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 43,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122988",
+            "updated": "2022-12-23 12:52:40.122989",
+            "recipe": 9,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 44,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122990",
+            "updated": "2022-12-23 12:52:40.122990",
+            "recipe": 9,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 45,
+        "fields": {
+            "created": "2022-12-23 12:52:40.122991",
+            "updated": "2022-12-23 12:52:40.122992",
+            "recipe": 9,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 46,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123172",
+            "updated": "2022-12-23 12:52:40.123173",
+            "recipe": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 47,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123174",
+            "updated": "2022-12-23 12:52:40.123175",
+            "recipe": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 48,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123176",
+            "updated": "2022-12-23 12:52:40.123176",
+            "recipe": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 49,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123178",
+            "updated": "2022-12-23 12:52:40.123179",
+            "recipe": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 50,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123180",
+            "updated": "2022-12-23 12:52:40.123180",
+            "recipe": 10,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 51,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123362",
+            "updated": "2022-12-23 12:52:40.123363",
+            "recipe": 11,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 52,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123364",
+            "updated": "2022-12-23 12:52:40.123365",
+            "recipe": 11,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 53,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123366",
+            "updated": "2022-12-23 12:52:40.123367",
+            "recipe": 11,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 54,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123368",
+            "updated": "2022-12-23 12:52:40.123369",
+            "recipe": 11,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 55,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123370",
+            "updated": "2022-12-23 12:52:40.123371",
+            "recipe": 11,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 56,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123559",
+            "updated": "2022-12-23 12:52:40.123560",
+            "recipe": 12,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 57,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123561",
+            "updated": "2022-12-23 12:52:40.123562",
+            "recipe": 12,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 58,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123563",
+            "updated": "2022-12-23 12:52:40.123563",
+            "recipe": 12,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 59,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123564",
+            "updated": "2022-12-23 12:52:40.123565",
+            "recipe": 12,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 60,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123566",
+            "updated": "2022-12-23 12:52:40.123566",
+            "recipe": 12,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 61,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123756",
+            "updated": "2022-12-23 12:52:40.123757",
+            "recipe": 13,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 62,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123758",
+            "updated": "2022-12-23 12:52:40.123758",
+            "recipe": 13,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 63,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123759",
+            "updated": "2022-12-23 12:52:40.123760",
+            "recipe": 13,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 64,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123761",
+            "updated": "2022-12-23 12:52:40.123761",
+            "recipe": 13,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 65,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123762",
+            "updated": "2022-12-23 12:52:40.123763",
+            "recipe": 13,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 66,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123954",
+            "updated": "2022-12-23 12:52:40.123955",
+            "recipe": 14,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 67,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123956",
+            "updated": "2022-12-23 12:52:40.123956",
+            "recipe": 14,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 68,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123957",
+            "updated": "2022-12-23 12:52:40.123958",
+            "recipe": 14,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 69,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123959",
+            "updated": "2022-12-23 12:52:40.123959",
+            "recipe": 14,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 70,
+        "fields": {
+            "created": "2022-12-23 12:52:40.123960",
+            "updated": "2022-12-23 12:52:40.123961",
+            "recipe": 14,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 71,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124140",
+            "updated": "2022-12-23 12:52:40.124141",
+            "recipe": 15,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 72,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124142",
+            "updated": "2022-12-23 12:52:40.124143",
+            "recipe": 15,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 73,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124144",
+            "updated": "2022-12-23 12:52:40.124144",
+            "recipe": 15,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 74,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124145",
+            "updated": "2022-12-23 12:52:40.124146",
+            "recipe": 15,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 75,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124147",
+            "updated": "2022-12-23 12:52:40.124147",
+            "recipe": 15,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 76,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124321",
+            "updated": "2022-12-23 12:52:40.124322",
+            "recipe": 16,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 77,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124323",
+            "updated": "2022-12-23 12:52:40.124324",
+            "recipe": 16,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 78,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124325",
+            "updated": "2022-12-23 12:52:40.124326",
+            "recipe": 16,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 79,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124326",
+            "updated": "2022-12-23 12:52:40.124327",
+            "recipe": 16,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 80,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124328",
+            "updated": "2022-12-23 12:52:40.124329",
+            "recipe": 16,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 81,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124515",
+            "updated": "2022-12-23 12:52:40.124516",
+            "recipe": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 82,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124517",
+            "updated": "2022-12-23 12:52:40.124517",
+            "recipe": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 83,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124518",
+            "updated": "2022-12-23 12:52:40.124519",
+            "recipe": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 84,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124520",
+            "updated": "2022-12-23 12:52:40.124520",
+            "recipe": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 85,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124522",
+            "updated": "2022-12-23 12:52:40.124523",
+            "recipe": 17,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 86,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124698",
+            "updated": "2022-12-23 12:52:40.124699",
+            "recipe": 18,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 87,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124700",
+            "updated": "2022-12-23 12:52:40.124700",
+            "recipe": 18,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 88,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124702",
+            "updated": "2022-12-23 12:52:40.124702",
+            "recipe": 18,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 89,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124703",
+            "updated": "2022-12-23 12:52:40.124704",
+            "recipe": 18,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 90,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124705",
+            "updated": "2022-12-23 12:52:40.124706",
+            "recipe": 18,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 91,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124884",
+            "updated": "2022-12-23 12:52:40.124884",
+            "recipe": 19,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 92,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124886",
+            "updated": "2022-12-23 12:52:40.124887",
+            "recipe": 19,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 93,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124889",
+            "updated": "2022-12-23 12:52:40.124889",
+            "recipe": 19,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 94,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124891",
+            "updated": "2022-12-23 12:52:40.124891",
+            "recipe": 19,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 95,
+        "fields": {
+            "created": "2022-12-23 12:52:40.124892",
+            "updated": "2022-12-23 12:52:40.124893",
+            "recipe": 19,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 96,
+        "fields": {
+            "created": "2022-12-23 12:52:40.125076",
+            "updated": "2022-12-23 12:52:40.125076",
+            "recipe": 20,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 97,
+        "fields": {
+            "created": "2022-12-23 12:52:40.125077",
+            "updated": "2022-12-23 12:52:40.125078",
+            "recipe": 20,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 98,
+        "fields": {
+            "created": "2022-12-23 12:52:40.125079",
+            "updated": "2022-12-23 12:52:40.125080",
+            "recipe": 20,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 99,
+        "fields": {
+            "created": "2022-12-23 12:52:40.125081",
+            "updated": "2022-12-23 12:52:40.125081",
+            "recipe": 20,
+            "user": 1
+        }
+    },
+    {
+        "model": "recipes.favorite",
+        "pk": 100,
+        "fields": {
+            "created": "2022-12-23 12:52:40.125082",
+            "updated": "2022-12-23 12:52:40.125083",
+            "recipe": 20,
+            "user": 1
+        }
+    }
+]

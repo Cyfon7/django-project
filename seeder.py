@@ -101,7 +101,12 @@ def recipes_seeder():
     recipes = []
     ingredients = []
     amounts = []
+    reviews = []
+    favorites = []
+
     ing_counter = 0
+    rev_counter = 0
+    fav_counter = 0
 
     tags = tag_seeder()
     categories = categories_seeder()
@@ -114,7 +119,8 @@ def recipes_seeder():
                 'description': fake.paragraph(nb_sentences=2),
                 'steps': fake.paragraph(nb_sentences=15, variable_nb_sentences=False),
                 'category': sample(categories, 1)[0]['pk'],
-                'tag': sample(tags, 1)[0]['pk']
+                'tag': sample(tags, 1)[0]['pk'],
+                'user': 1
             }
         ))
 
@@ -134,10 +140,32 @@ def recipes_seeder():
                     'unit': sample(units, 1)[0]['pk']
                 }
             ))
-    
+        
+        for _ in range(8):
+            rev_counter += 1
+            reviews.append(model_base("recipes.review", rev_counter,
+                {
+                    'rate': 0.5,
+                    'recipe': recipes[-1]['pk'],
+                    'content': fake.paragraph(nb_sentences=2),
+                    'user': 1
+                }
+            ))
+        
+        for _ in range(5):
+            fav_counter +=1
+            favorites.append(model_base("recipes.favorite", fav_counter,
+                {
+                    'recipe': recipes[-1]['pk'],
+                    'user': 1
+                }
+            ))
+
     build_fixture("recipes", recipes)
     build_fixture("ingredients", ingredients)
     build_fixture("amounts", amounts)
+    build_fixture("reviews", reviews)
+    build_fixture("favorites", favorites)
 
 
 def main():
