@@ -54,7 +54,6 @@ body {
   background: #5cb85c;
 }
 
-
 #principalBody {
   margin: 0 3rem;
   padding: 0rem 1rem;
@@ -81,10 +80,11 @@ header {
   margin-bottom: 2rem;
 }
 
-.hero-section form div {
+.hero-section .search-form {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  width: 50%;
 }
 
 .hero-section .search-button {
@@ -99,13 +99,6 @@ header {
 }
 
 .carousel-indicators {
-  /*top: 50px; 
-  position: absolute;
-  bottom: 30px;
-  right: 30px;
-  z-index: 1;
-  text-align: right;
-  */
   margin: 0;
   padding-left: 80%;
   bottom: 30px;
@@ -181,6 +174,7 @@ header {
 
 .recent-recipe-item {
   padding:0px;
+  position: relative;
 }
 
 .recent-recipe-item .card, .recent-recipe-item .card img {
@@ -195,19 +189,22 @@ header {
 }
 
 .recent-recipe-item .card-title {
-  width: max-content;
+  width: 78%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .recent-recipe-item .card-stars {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  left: 60%;
+  bottom: 80%;
 }
 
 .fav-heart {
   position: absolute;
-  top: 75%;
-  right: 1rem; 
+  bottom: 40%;
+  left: 75%; 
   z-index: 2;
 }
 
@@ -270,13 +267,13 @@ header {
 }
 
 .hr-list {
-  width: 90%;
+  width: 100%;
   border: 2;
   color: #000;
   padding: 0;
 }
 
-.popular-item .media-body {
+.popular-item .card-body {
   color: #444444;
 }
 
@@ -314,12 +311,6 @@ footer{
   margin-right: 1rem;
 }
 
-/* Recipe Images */
-.recipe-img {
-  width: 100%;
-  height: 100%;
-}
-
 /* Recipe Rating, Buttons & Description */
 .recipe-general {
   padding-left: 1rem;
@@ -327,8 +318,13 @@ footer{
 }
 
 /* Stars */
+.stars {
+  color: #cdb10f;
+} 
+
 .recipe-rating-stars {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .recipe-button-group {
@@ -350,6 +346,7 @@ footer{
 .recipe-button-group div.row > *{
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .icon-box-2 {
