@@ -138,9 +138,6 @@ class Amount(CommonModel):
     amount = models.FloatField()
     unit = models.ForeignKey(Unit, on_delete=models.CASCADE, null=False)
 
-class Rating(UserRelationModel):
-    points = models.DecimalField(decimal_places=1, max_digits=2)
-
 class Favorite(UserRelationModel):
     pass
 
