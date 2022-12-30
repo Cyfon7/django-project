@@ -36,7 +36,11 @@
         <div class="row row-cols-2">
             <!-- Picture -->
             <div class="col">
-                <img src="{% static 'recipes/image_default.jpg' %}" class="img-fluid">
+                {% if recipe.image %}
+                    <img src="{{recipe.image}}" class="img-fluid">
+                {% else %}
+                    <img src="{% static 'recipes/image_default.jpg' %}" class="img-fluid">
+                {% endif %}
             </div>
             <!-- Rating, buttons & Description -->
             <div class="col recipe-general">

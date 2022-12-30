@@ -1,9 +1,13 @@
 {% load static %}
-{% load  recipes_extras %}
+{% load recipes_extras %}
 <div class="recent-recipe-item col">
     <a href="{% url 'recipes:detail' recipe.id %}">
       <div class="card">
-        <img src="{% static 'recipes/image_default.jpg' %}" class="card-img" alt="...">
+        {% if recipe.image %}
+          <img src={{ recipe.image.url }} class="card-img" alt="...">
+        {% else %}
+          <img src="{% static 'recipes/image_default.jpg' %}" class="card-img" alt="...">
+        {% endif %}
         <div class="card-img-overlay">
           <div class="row">
             <i class="fas fa-utensils icon-box"></i>
