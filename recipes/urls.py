@@ -11,12 +11,5 @@ urlpatterns = [
     path('recipes/<int:recipe_id>', views.detail, name='detail'),
     path('favorite/create', views.favorite_create, name='heart'),
     path('favorite/delete', views.favorite_destroy, name='unheart'),
-    path('review/create', views.review_create, name='review_create'),
-    # path('accounts/', include('django.contrib.auth.urls')),
-    path('category/', views.CategoryView, name='category'),
-    path('ingredient/', views.IngredientView, name='ingredient'),
-    path('tag/', views.TagView, name='tag'),
-    path('unit/', views.UnitView, name='unit'),
-    path('recipe/', views.RecipeView, name='recipe'),
-    path('amount/', views.AmountView, name='amount'),
+    path('review/create', views.review_create, name='review_create')
 ]

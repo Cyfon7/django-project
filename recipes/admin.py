@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Category, Ingredient, Tag, Unit, Recipe, Amount, Rating, Favorite, Review
+from .models import Category, Ingredient, Tag, Unit, Recipe, Amount, Favorite, Review
 
 # Inlines
 class AmountInline(admin.TabularInline):
@@ -36,9 +36,6 @@ class UnitAdmin(CommonAdmin):
 class AmountAdmin(CommonAdmin):
     pass
 
-class RatingAdmin(CommonAdmin):
-    pass
-
 class FavoriteAdmin(CommonAdmin):
     pass
 
@@ -51,6 +48,5 @@ admin.site.register(Tag, TagAdmin)
 admin.site.register(Unit, UnitAdmin)
 admin.site.register(Recipe, RecipeAdmin)
 admin.site.register(Amount, AmountAdmin)
-admin.site.register(Rating, RatingAdmin)
 admin.site.register(Favorite, FavoriteAdmin)
 admin.site.register(Review, ReviewAdmin)
