@@ -16,7 +16,7 @@ class CommonAdmin(admin.ModelAdmin):
 
 class RecipeAdmin(CommonAdmin):
     fieldsets = [
-        (None, {'fields': ['title', 'description', 'steps']}),
+        (None, {'fields': ['title', 'description', 'steps', 'image']}),
         ('Clasification', {'fields': ['tag', 'category'], 'classes': ['collapse']})
     ]
     inlines = [AmountInline]

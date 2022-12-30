@@ -130,4 +130,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 FIXTURES_DIRS = [BASE_DIR / 'fixtures']
 
 LOGIN_REDIRECT_URL = '/'
+
 LOGOUT_REDIRECT_URL = '/'
+
+MEDIA_ROOT = f'{BASE_DIR}/media/'
+
+MEDIA_URL = '/media/'

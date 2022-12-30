@@ -1,6 +1,8 @@
 import math
 from django.db import models
 from django.contrib.auth.models import User
+from django.conf import settings
+
 
 # Create your models here.
 
@@ -39,7 +41,6 @@ class Ingredient(NamedModel):
 
     def units(self):
         return self.amount_set.all()[0].unit.name
-
     pass
 
 class Tag(NamedModel):
@@ -57,6 +58,7 @@ class Recipe(CommonModel):
     ingredients = models.ManyToManyField(Ingredient, through='Amount')
     user = models.ForeignKey(User, models.SET_NULL, null=True)
     visit_counter = models.IntegerField(default=0)
+    image = models.ImageField(default=None, upload_to='recipes/')
 
     @classmethod
     def top_5_used(cls):
@@ -73,6 +75,18 @@ class Recipe(CommonModel):
     @classmethod
     def top_5_rating(cls):
         return cls.objects.values().annotate(models.Avg('review__rate')).order_by('-review__rate__avg')[:5]
+
+    @classmethod
+    def search_query(self, query):
+        if query:
+            return self.objects.filter(        
+                models.Q(title__icontains=query) |
+                models.Q(description__icontains=query) |
+                models.Q(steps__icontains=query) |
+                models.Q(ingredients__name__icontains=query)
+            ).order_by('-created').distinct('id')
+        else:
+            return self.objects.all()
 
     def __str__(self):
         return self.title

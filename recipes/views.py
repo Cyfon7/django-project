@@ -49,13 +49,8 @@ def detail(request, recipe_id):
 
 def search(request):
     q = request.GET['q']
-
-    recipes = Recipe.objects.filter(
-        models.Q(title__icontains=q) |
-        models.Q(description__icontains=q) |
-        models.Q(steps__icontains=q) |
-        models.Q(ingredients__name__icontains=q)
-    )
+    
+    recipes = Recipe.search_query(q)
     tags = Tag.objects.values()
     categories = Category.objects.values()
     top_tags = Recipe.top_5_used()
