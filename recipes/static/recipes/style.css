@@ -353,16 +353,6 @@ footer{
   background: #5cb85c;
 }
 
-.fav-heart-2 button {
-  background: none;
-  border: none;
-}
-
-.fav-heart-2 button:focus {
-  box-shadow:none !important;
-  outline: 0;
-}
-
 /* Preparation */
 .recipe-preparation {
   margin-top: 3rem;
